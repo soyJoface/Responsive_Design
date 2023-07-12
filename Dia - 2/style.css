@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+.container {
+    background-color: #23424A;
+}
+
+.parent {
+    padding: 2em;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    
+}
+
+.parent-text {
+    color: #fff;
+}
+
+.child {
+    width: 50%;
+
+}

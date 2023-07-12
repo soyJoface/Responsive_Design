@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.parent {
+    background-color: #23424A;
+    padding: 2em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child {
+    width: 50%;
+
+}
+
+/*
+No utilizar height, mejor utilizar padding 
+No usar valores fijos en width, utilizar porcentajes
+*/
