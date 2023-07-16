@@ -139,3 +139,18 @@ h1 {
     font-size: 36px;
 
 }
+
+@media ( max-width: 715px ) {
+
+    .row {
+        display: block;
+    }
+
+    .hero__text, .hero__img, .left-col, .right-col {
+        width: 100%;
+    }
+
+    .hero__img {
+        margin-top: 2em;
+    }
+}
