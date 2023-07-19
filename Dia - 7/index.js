@@ -1,6 +1,7 @@
-const logoImg = document.querySelector('#logo-image');
-const nav     = document.querySelector('.nav');
+const toggleButton = document.querySelector('.toggle-button');
+const navbar = document.querySelector('.navbar'); // Selecciona la navegación directamente
 
-logoImg.addEventListener('click', () => {
-    nav.classList.toggle('nav--visible')
-})
+toggleButton.addEventListener('click', () => {
+    navbar.classList.toggle('active'); // Agrega o quita la clase 'active' en la navegación (navbar)
+});
+
